@@ -13,5 +13,5 @@ def password_check(password):
   else:
     return('Password is strong')
 user_password = input("Enter password : ")   
-banny=password_check(user_password)
-print(banny)             
+result=password_check(user_password)
+print(result)             
